@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اپلیکیشن‌های ما | elyasyy-apps</title>
+  <meta name="description" content="تمام برنامه‌های رایگان اندرویدی سازنده: توکل، خشوع، حسابیار و حیات صحابه.">
+  <link rel="canonical" href="https://elyasyy23-lgtm.github.io/elyasyy-apps/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://elyasyy23-lgtm.github.io/elyasyy-apps/">
+  <meta property="og:title" content="اپلیکیشن‌های ما | elyasyy-apps">
+  <meta property="og:image" content="https://elyasyy23-lgtm.github.io/elyasyy-apps/assets/web-icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    /* No-flash language bootstrap: runs before paint. */
+    (function () {
+      var lang = 'fa';
+      try { lang = localStorage.getItem('elyasyy_lang') || 'fa'; } catch (e) {}
+      window.ELYASYY_LANG = lang;
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === 'en' ? 'ltr' : 'rtl';
+      document.documentElement.classList.toggle('lang-en', lang === 'en');
+    })();
+  </script>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0f14;--card:#121a22;--line:#24313d;--txt:#e9eef3;--muted:#9aa9b7;--accent:#4ade80}
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%}
+    body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;line-height:1.7}
+    a{color:inherit}
+    .wrap{max-width:1080px;margin:0 auto;padding:24px 18px 48px}
+    .hub-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:20px}
+    .brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:var(--accent);color:#07130f;font-size:20px}
+    .langs{display:flex;gap:6px}
+    .lang{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 12px;cursor:pointer}
+    .lang[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#07130f;font-weight:700}
+    .hero{padding:36px 0 24px;max-width:760px}
+    .hero h1{font-size:clamp(28px,6vw,44px);margin:0 0 8px;line-height:1.25}
+    .hero p{color:var(--muted);margin:0 0 20px;font-size:17px}
+    .search{display:block;max-width:520px}
+    .search span{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    .search input{width:100%;padding:13px 16px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:16px}
+    .section-head{display:flex;align-items:center;gap:10px;margin:8px 0 16px}
+    .section-head h2{font-size:20px;margin:0}
+    .count{font-size:12px;padding:3px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted)}
+    .hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .hub-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:12px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+    .hub-card-top{display:flex;align-items:center;gap:12px}
+    .hub-card img{width:64px;height:64px;border-radius:16px;object-fit:cover;background:#0b0f14}
+    .hub-card h3{margin:0;font-size:18px}
+    .hub-dev{font-size:12px;color:var(--muted)}
+    .free{margin-inline-start:auto;align-self:flex-start;font-size:11px;padding:4px 9px;border-radius:999px;background:rgba(74,222,128,.12);color:var(--accent);border:1px solid rgba(74,222,128,.35)}
+    .hub-desc{margin:0;color:var(--muted);font-size:14px;min-height:66px}
+    .hub-meta{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--muted)}
+    .hub-meta span{padding:4px 9px;border-radius:999px;border:1px solid var(--line)}
+    .hub-actions{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:auto}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 14px;border-radius:12px;text-decoration:none;font-weight:700;font-size:14px;border:1px solid transparent;cursor:pointer}
+    .btn-primary{background:var(--accent);color:#07130f}
+    .btn-ghost{background:transparent;border-color:var(--line);color:var(--txt)}
+    .hub-empty{text-align:center;padding:40px 20px;color:var(--muted)}
+    .hub-empty[hidden]{display:none}
+    .hub-empty button{margin-top:10px}
+    footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+    .foot-row{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between}
+    html[dir="ltr"] .free{margin-left:auto;margin-inline-start:0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hub-header">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">ا</span>
+        <span data-i18n="hub.brand">elyasyy-apps</span>
+      </a>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" class="lang" data-lang="fa" aria-pressed="true">FA</button>
+        <button type="button" class="lang" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 data-i18n="hub.title">اپلیکیشن‌های ما</h1>
+        <p data-i18n="hub.sub">رایگان، بدون تبلیغ و mostly آفلاین — ساختهٔ همین سازنده.</p>
+        <label class="search">
+          <span data-i18n="hub.search.aria">جستجوی برنامه</span>
+          <input id="app-search" type="search" placeholder="جستجوی برنامه…" data-i18n-placeholder="hub.search.placeholder">
+        </label>
+      </section>
+
+      <section id="apps" class="apps-section">
+        <div class="section-head">
+          <h2 data-i18n="hub.apps.title">همه برنامه‌ها</h2>
+          <span class="count" id="app-count">۴</span>
+        </div>
+
+        <div id="appgrid" class="hub-grid">
+          <article class="hub-card" data-search="توکل tavakkol محافظ مسدود کلمات سایت قفل امنیتی اندروید guardian blocker keyword site lock android">
+            <div class="hub-card-top">
+              <img src="assets/web-icon.png" alt="آیکون برنامه توکل" width="64" height="64" loading="lazy" decoding="async" data-i18n-alt="tav.alt">
+              <div>
+                <h3 data-i18n="tav.name">توکل</h3>
+                <span class="hub-dev" data-i18n="tav.dev">توکل</span>
+              </div>
+              <span class="free" data-i18n="apps.free">رایگان</span>
+            </div>
+            <p class="hub-desc" data-i18n="tav.desc">محافظ رایگان گوشی؛ مسدود کردن کلمات و سایت‌ها، قفل‌های امنیتی و اجرای پایدار در پسزمینه.</p>
+            <div class="hub-meta">
+              <span data-i18n="tav.v">نسخهٔ ۱.۴.۲۱</span>
+              <span data-i18n="tav.size">۳۵ مگابایت</span>
+              <span data-i18n="tav.os">اندروید ۷+</span>
+            </div>
+            <div class="hub-actions">
+              <a class="btn btn-primary" href="Tavakkol-release.apk" data-repo="elyasyy23-lgtm/FocusBlocker" download="Tavakkol-release.apk">
+                <span data-i18n="apps.download">دانلود</span>
+              </a>
+              <a class="btn btn-ghost" href="https://github.com/elyasyy23-lgtm/FocusBlocker/releases" target="_blank" rel="noopener">
+                <span data-i18n="apps.releases">نسخه‌ها</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="hub-card" data-search="خشوع شمارنده رکعت شمار سجده قبله نماز اندروید khushu rakaatcounter rakaat rakat counter prayer salah sujud qibla android offline">
+            <div class="hub-card-top">
+              <img src="assets/khushu-icon.png" alt="آیکون برنامه خشوع" width="64" height="64" loading="lazy" decoding="async" data-i18n-alt="khushu.alt">
+              <div>
+                <h3 data-i18n="khushu.name">خشوع</h3>
+                <span class="hub-dev" data-i18n="khushu.dev">توکل</span>
+              </div>
+              <span class="free" data-i18n="apps.free">رایگان</span>
+            </div>
+            <p class="hub-desc" data-i18n="khushu.desc">گوشی را کنار سجاده بگذار؛ با نور محیط سجده را میشناسد و رکعتها را میشمارد.</p>
+            <div class="hub-meta">
+              <span data-i18n="khushu.v">نسخهٔ ۱.۷.۱</span>
+              <span data-i18n="khushu.size">۳۵ مگابایت</span>
+              <span data-i18n="khushu.os">اندروید ۷+</span>
+            </div>
+            <div class="hub-actions">
+              <a class="btn btn-primary" href="RakaatCounter-release.apk" data-repo="elyasyy23-lgtm/RakaatCounter" download="RakaatCounter-release.apk">
+                <span data-i18n="apps.download">دانلود</span>
+              </a>
+              <a class="btn btn-ghost" href="rakaatcounter.html">
+                <span data-i18n="apps.details">جزئیات</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="hub-card" data-search="حسابیار حساب دفترچه حساب مشتری بدهی پرداخت طلبکار فروشگاه پیامک واریز بانکی hesabyar hesab yar khata ledger customer debt payment shop sms bank android offline">
+            <div class="hub-card-top">
+              <img src="assets/hesabyar-icon.png" alt="آیکون برنامه حسابیار" width="64" height="64" loading="lazy" decoding="async" data-i18n-alt="hesab.alt">
+              <div>
+                <h3 data-i18n="hesab.name">حسابیار</h3>
+                <span class="hub-dev" data-i18n="hesab.dev">توکل</span>
+              </div>
+              <span class="free" data-i18n="apps.free">رایگان</span>
+            </div>
+            <p class="hub-desc" data-i18n="hesab.desc">دفترچهٔ حساب مشتریان؛ بدهی و پرداخت هر مشتری را نگه میدارد و پیامک واریز بانکی را خودکار ثبت میکند.</p>
+            <div class="hub-meta">
+              <span data-i18n="hesab.v">نسخهٔ ۱.۵.۰</span>
+              <span data-i18n="hesab.size">۴۷ مگابایت</span>
+              <span data-i18n="hesab.os">اندروید ۷+</span>
+            </div>
+            <div class="hub-actions">
+              <a class="btn btn-primary" href="HesabYar-release.apk" data-repo="elyasyy23-lgtm/ContactsApp" download="HesabYar-release.apk">
+                <span data-i18n="apps.download">دانلود</span>
+              </a>
+              <a class="btn btn-ghost" href="contactsapp.html">
+                <span data-i18n="apps.details">جزئیات</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="hub-card" data-search="حیات صحابه حیات الصحابه صحابه یاران پیامبر کتاب مذهبی اسلامی آفلاین جلد اول kandhlawi hayat al sahabah sahabah companions prophet book islamic offline volume android">
+            <div class="hub-card-top">
+              <img src="assets/hayat-icon.png" alt="آیکون برنامه حیات صحابه" width="64" height="64" loading="lazy" decoding="async" data-i18n-alt="hayat.alt">
+              <div>
+                <h3 data-i18n="hayat.name">حیات صحابه</h3>
+                <span class="hub-dev" data-i18n="hayat.dev">توکل</span>
+              </div>
+              <span class="free" data-i18n="apps.free">رایگان</span>
+            </div>
+            <p class="hub-desc" data-i18n="hayat.desc">کتاب «حیات الصحابه» بهصورت کاملاً آفلاین؛ جلد اول با فهرست، جستجو، نشانک و پانویسهای کامل.</p>
+            <div class="hub-meta">
+              <span data-i18n="hayat.v">نسخهٔ ۱.۱.۰</span>
+              <span data-i18n="hayat.size">۳۸ مگابایت</span>
+              <span data-i18n="hayat.os">اندروید ۷+</span>
+            </div>
+            <div class="hub-actions">
+              <a class="btn btn-primary" href="Hayat-release.apk" data-repo="elyasyy23-lgtm/HayatAlSahabah" download="Hayat-release.apk">
+                <span data-i18n="apps.download">دانلود</span>
+              </a>
+              <a class="btn btn-ghost" href="hayatsahabah.html">
+                <span data-i18n="apps.details">جزئیات</span>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="hub-empty" id="apps-empty" hidden role="status">
+          <b data-i18n="search.empty.title">برنامهای پیدا نشد</b>
+          <p data-i18n="search.empty.body">نام دیگری را امتحان کن یا جستجو را پاک کن.</p>
+          <button type="button" id="apps-clear" class="btn btn-ghost" data-i18n="search.empty.clear">پاک کردن جستجو</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot-row">
+        <span data-i18n="footer.text">تمام برنامهها رایگاناند، بدون تبلیغ و بدون جمعآوری اطلاعات.</span>
+        <span data-i18n-html="footer.contact">ارتباط با سازنده در روبیکا: <a href="https://rubika.ir/yasmajyd" target="_blank" rel="noopener">@yasmajyd</a></span>
+      </div>
+      <p data-i18n="footer.wordmark">elyasyy-apps</p>
+      <div class="foot-row">
+        <span data-i18n="footer.meta">آخرین بهروزرسانی: نوامبر ۲۰۲۶</span>
+        <a class="stats-link" href="https://cloud.umami.is/share/E5qW7nnc43EoLYez" target="_blank" rel="noopener" data-i18n="footer.stats">آمار بازدید</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    window.I18N_EN = {
+      'meta.title': 'Our apps | elyasyy-apps',
+      'meta.description': 'All free Android apps by this developer: Tavakkol, Khushu, HesabYar and Hayat al-Sahabah.',
+      'hub.brand': 'elyasyy-apps',
+      'hub.title': 'Our apps',
+      'hub.sub': 'Free, ad-free and mostly offline — built by the same developer.',
+      'hub.search.aria': 'Search apps',
+      'hub.search.placeholder': 'Search apps…',
+      'hub.apps.title': 'All apps',
+      'apps.free': 'Free',
+      'apps.download': 'Download',
+      'apps.details': 'Details',
+      'apps.releases': 'Releases',
+      'tav.name': 'Tavakkol',
+      'tav.dev': 'Tavakkol',
+      'tav.alt': 'Tavakkol app icon',
+      'tav.desc': 'Free phone guardian: keyword and site blocking, security locks and stable background operation.',
+      'tav.v': 'v1.4.21',
+      'tav.size': '35 MB',
+      'tav.os': 'Android 7+',
+      'khushu.name': 'Khushu',
+      'khushu.dev': 'Tavakkol',
+      'khushu.alt': 'Khushu app icon',
+      'khushu.desc': 'Put the phone beside your prayer mat; it recognises each prostration from the room light and counts the rak’ahs for you.',
+      'khushu.v': 'v1.7.1',
+      'khushu.size': '35 MB',
+      'khushu.os': 'Android 7+',
+      'hesab.name': 'HesabYar',
+      'hesab.dev': 'Tavakkol',
+      'hesab.alt': 'HesabYar app icon',
+      'hesab.desc': 'A customer account book; it keeps each customer’s debt and payments and records bank deposit SMS automatically.',
+      'hesab.v': 'v1.5.0',
+      'hesab.size': '47 MB',
+      'hesab.os': 'Android 7+',
+      'hayat.name': 'Hayat al-Sahabah',
+      'hayat.dev': 'Tavakkol',
+      'hayat.alt': 'Hayat al-Sahabah app icon',
+      'hayat.desc': 'The book “Hayat al-Sahabah” fully offline; volume one with table of contents, search, bookmarks and complete footnotes.',
+      'hayat.v': 'v1.1.0',
+      'hayat.size': '38 MB',
+      'hayat.os': 'Android 7+',
+      'search.empty.title': 'No app found',
+      'search.empty.body': 'Try a different name, or clear the search.',
+      'search.empty.clear': 'Clear search',
+      'footer.text': 'All apps are free, ad-free and do not collect data.',
+      'footer.contact': 'Contact the developer on Rubika: <a href="https://rubika.ir/yasmajyd" target="_blank" rel="noopener">@yasmajyd</a>',
+      'footer.wordmark': 'elyasyy-apps',
+      'footer.meta': 'Last updated: November 2026',
+      'footer.stats': 'Visit stats'
+    };
+  </script>
+
+  <script>
+    /* Applies the English dictionary; Persian markup is the source of truth. */
+    (function () {
+      var dict = window.I18N_EN || {};
+      function all(sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); }
+
+      all('[data-i18n]').forEach(function (el) {
+        if (el.getAttribute('data-fa') === null) el.setAttribute('data-fa', el.textContent.trim());
+      });
+      all('[data-i18n-alt]').forEach(function (el) {
+        if (el.getAttribute('data-fa-alt') === null) el.setAttribute('data-fa-alt', el.getAttribute('alt') || '');
+      });
+      all('[data-i18n-placeholder]').forEach(function (el) {
+        if (el.getAttribute('data-fa-placeholder') === null) el.setAttribute('data-fa-placeholder', el.getAttribute('placeholder') || '');
+      });
+      all('[data-i18n-html]').forEach(function (el) {
+        if (el.getAttribute('data-fa-html') === null) el.setAttribute('data-fa-html', el.innerHTML);
+      });
+
+      function apply(lang) {
+        var en = lang === 'en';
+        all('[data-i18n]').forEach(function (el) {
+          var key = el.getAttribute('data-i18n');
+          el.textContent = (en && dict[key]) ? dict[key] : el.getAttribute('data-fa');
+        });
+        all('[data-i18n-alt]').forEach(function (el) {
+          var key = el.getAttribute('data-i18n-alt');
+          el.setAttribute('alt', (en && dict[key]) ? dict[key] : el.getAttribute('data-fa-alt'));
+        });
+        all('[data-i18n-placeholder]').forEach(function (el) {
+          var key = el.getAttribute('data-i18n-placeholder');
+          el.setAttribute('placeholder', (en && dict[key]) ? dict[key] : el.getAttribute('data-fa-placeholder'));
+        });
+        all('[data-i18n-html]').forEach(function (el) {
+          var key = el.getAttribute('data-i18n-html');
+          el.innerHTML = (en && dict[key]) ? dict[key] : el.getAttribute('data-fa-html');
+        });
+
+        document.documentElement.lang = lang;
+        document.documentElement.dir = en ? 'ltr' : 'rtl';
+        document.documentElement.classList.toggle('lang-en', en);
+        document.title = en ? dict['meta.title'] : 'اپلیکیشنهای ما | elyasyy-apps';
+        var meta = document.querySelector('meta[name="description"]');
+        if (meta) meta.content = en ? dict['meta.description'] : 'تمام برنامههای رایگان اندرویدی سازنده: توکل، خشوع، حسابیار و حیات صحابه.';
+        all('[data-lang]').forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang));
+        });
+      }
+
+      apply(window.ELYASYY_LANG || 'fa');
+      all('[data-lang]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          try { localStorage.setItem('elyasyy_lang', b.getAttribute('data-lang')); } catch (e) {}
+          location.reload();
+        });
+      });
+    })();
+  </script>
+
+  <script>
+    /* Store-style search over the hub cards. */
+    (function () {
+      var input = document.getElementById('app-search');
+      var grid = document.getElementById('appgrid');
+      var empty = document.getElementById('apps-empty');
+      var clear = document.getElementById('apps-clear');
+      var count = document.getElementById('app-count');
+      if (!input || !grid) return;
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.hub-card'));
+
+      function fold(value) {
+        return String(value || '').toLowerCase()
+          .replace(/[\u064B-\u0652\u0670\u0640\u200B-\u200D\uFEFF]/g, '')
+          .replace(/[\u064A\u0649]/g, '\u06CC')
+          .replace(/\u0643/g, '\u06A9')
+          .replace(/[\u0623\u0625\u0622]/g, '\u0627')
+          .replace(/\u0624/g, '\u0648')
+          .replace(/\u0626/g, '\u06CC')
+          .replace(/\u0649/g, '\u06CC');
+      }
+
+      function run() {
+        var terms = fold(input.value).split(/\s+/).filter(Boolean);
+        var shown = 0;
+        cards.forEach(function (card) {
+          var hay = fold(card.getAttribute('data-search') + ' ' + card.textContent);
+          var ok = terms.every(function (term) { return hay.indexOf(term) !== -1; });
+          card.hidden = !ok;
+          if (ok) shown++;
+        });
+        if (empty) empty.hidden = shown !== 0;
+        if (count) count.textContent = String(shown);
+      }
+
+      input.addEventListener('input', run);
+      if (clear) clear.addEventListener('click', function () { input.value = ''; run(); input.focus(); });
+      run();
+    })();
+  </script>
+
+  <script src="assets/apk-links.js"></script>
+</body>
+</html>
