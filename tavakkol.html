@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">توکل | محافظ رایگان گوشی و مسدودکننده محتوا</title>
+<meta name="description" id="meta-description" content="توکل یک برنامهٔ رایگان اندروید است که با مسدود کردن کلمات، سایت‌ها و محتوای بزرگسالان، گوشی را تحت کنترل نگه میدارد. بدون تبلیغ و بدون جمعآوری اطلاعات.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://elyasyy23-lgtm.github.io/elyasyy-apps/tavakkol.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="توکل" id="og-site-name">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:url" content="https://elyasyy23-lgtm.github.io/elyasyy-apps/tavakkol.html">
+<meta property="og:title" id="og-title" content="توکل | محافظ رایگان گوشی و مسدودکننده محتوا">
+<meta property="og:description" id="og-description" content="کلمات و سایتهای ممنوعه، قفل بزرگسالان، تأخیر ورود و حفاظت پایدار در پسزمینه. رایگان و بدون تبلیغ.">
+<meta property="og:image" content="https://elyasyy23-lgtm.github.io/elyasyy-apps/assets/web-icon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" id="tw-title" content="توکل | محافظ رایگان گوشی و مسدودکننده محتوا">
+<meta name="twitter:description" id="tw-description" content="کلمات و سایتهای ممنوعه، قفل بزرگسالان، تأخیر ورود و حفاظت پایدار در پسزمینه. رایگان و بدون تبلیغ.">
+<meta name="twitter:image" content="https://elyasyy23-lgtm.github.io/elyasyy-apps/assets/web-icon.png">
+<meta name="theme-color" content="#0F172A">
+<!-- Language bootstrap: same key as the home page, so the visitor's choice
+     follows them from the grid into an app page (and back) with no flash. -->
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('tavakkol_lang'); } catch (error) {}
+    var lang = saved === 'en' ? 'en' : 'fa';
+    window.TAVAKKOL_LANG = lang;
+    if (lang === 'en') {
+      document.documentElement.classList.add('lang-en');
+      document.documentElement.lang = 'en';
+      document.documentElement.dir = 'ltr';
+    }
+  })();
+</script>
+<!-- Traffic stats: same Umami site id as the home page. -->
+<script>
+  var TAVAKKOL_UMAMI_ID = 'a9e61d4a-7e53-45e4-9078-f6af538b6c68';
+  if (TAVAKKOL_UMAMI_ID) {
+    var umami = document.createElement('script');
+    umami.async = true;
+    umami.src = 'https://cloud.umami.is/script.js';
+    umami.setAttribute('data-website-id', TAVAKKOL_UMAMI_ID);
+    document.head.appendChild(umami);
+  }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "توکل",
+  "alternateName": "Tavakkol",
+  "url": "https://elyasyy23-lgtm.github.io/elyasyy-apps/tavakkol.html",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Android 7+",
+  "inLanguage": "fa-IR",
+  "description": "محافظ رایگان گوشی: مسدود کردن کلمات و سایتهای دلخواه، قفل محتوای بزرگسالان، قفل شریک و حفاظت پایدار در پسزمینه.",
+  "featureList": "مسدود کردن کلمات و دامنهها، فهرست گسترده دامنههای بزرگسالان، قفل تأخیری، قفل شریک، وضعیت زنده سرویس و گزارش خطا",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IRR" },
+  "downloadUrl": "https://elyasyy23-lgtm.github.io/elyasyy-apps/Tavakkol-release.apk",
+  "softwareVersion": "1.4.23",
+  "fileSize": "37093105",
+  "dateModified": "2026-11-21"
+}
+</script>
+<link rel="icon" href="assets/web-icon.png">
+<link rel="preload" href="assets/fonts/Vazirmatn-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="head-left">
+      <a class="brand" href="index.html" style="text-decoration:none;color:inherit">
+        <img src="assets/web-icon.png" alt="نشان توکل" width="34" height="34" decoding="async" data-i18n-alt="brand.alt">
+        <div>
+          <span data-i18n="header.name">توکل</span><br>
+          <small data-i18n="header.tagline">نگهبانِ گوشی خودت</small>
+        </div>
+      </a>
+      <div class="lang" role="group" aria-label="Language / زبان">
+        <button type="button" data-lang="fa" lang="fa" aria-pressed="true">فارسی</button>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <div class="ver" data-i18n="header.version">نسخهٔ ۱.۴.۲۳ · اندروید</div>
+  </header>
+
+  <main>
+    <nav class="crumbs" aria-label="مسیر صفحه" data-i18n-aria="crumbs.aria">
+      <a class="back" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <span data-i18n="back.home">بازگشت به خانه</span>
+      </a>
+      <ol class="crumb-list">
+        <li><a href="index.html" data-i18n="crumbs.home">خانه</a></li>
+        <li><a href="index.html#apps" data-i18n="crumbs.apps">برنامهها</a></li>
+        <li aria-current="page" data-i18n="crumbs.current">توکل</li>
+      </ol>
+      <span class="ver" data-i18n="detail.free">رایگان · بدون تبلیغ</span>
+    </nav>
+
+    <section class="apphero">
+      <div class="apphero-iconwrap">
+        <img class="apphero-icon" src="assets/web-icon.png" alt="آیکون توکل" width="252" height="252" decoding="async" data-i18n-alt="app.alt">
+      </div>
+      <div class="apphero-body">
+        <span class="appbadge" data-i18n="app.badge">اندروید · رایگان · بدون اینترنت</span>
+        <h1 data-i18n="app.name">توکل — محافظ گوشی</h1>
+        <p class="apphero-meta">
+          <span data-i18n="app.metaversion">نسخهٔ ۱.۴.۲۳</span>
+          <span class="dot" aria-hidden="true">·</span>
+          <span data-i18n="app.by">توسط توکل</span>
+          <span class="dot" aria-hidden="true">·</span>
+          <span><time datetime="2026-11-21" data-i18n="app.updated">۲۱ نوامبر ۲۰۲۶</time></span>
+        </p>
+        <div class="apphero-pills">
+          <span data-i18n="app.pill1">بدون جمعآوری اطلاعات</span>
+          <span data-i18n="app.pill2">بدون تبلیغ</span>
+          <span data-i18n="app.pill3">اندروید ۷+</span>
+        </div>
+        <a class="hero-verify" href="#tech">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 6 9 17l-5-5"/>
+          </svg>
+          <span data-i18n="app.verify">فایل تأییدشده · هش SHA-256 در جدول فنی</span>
+        </a>
+        <div class="apphero-actions">
+          <a class="cta cta-app" id="tavakkol-cta" href="Tavakkol-release.apk" data-repo="elyasyy23-lgtm/FocusBlocker" download="Tavakkol-release.apk">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/><path d="m7 12 5 5 5-5"/><path d="M5 21h14"/>
+            </svg>
+            <span data-i18n="app.cta">دانلود APK — ۳۵ مگابایت</span>
+          </a>
+          <p class="meta appmeta">
+            <span data-i18n="app.version">نسخهٔ ۱.۴.۲۳</span>
+            <span data-i18n="app.size">حجم ۳۵ مگابایت</span>
+          </p>
+        </div>
+        <p class="cta-note appnote" data-i18n="app.note">
+          فایل مستقیم از همین سایت دانلود میشود، بدون واسطه. اگر گوگل هنگام نصب هشدار داد،
+          روی «Install anyway» بزن؛ نصب خارج از فروشگاه همیشه این پیام را نشان میدهد.
+        </p>
+      </div>
+    </section>
+
+    <section class="shots">
+      <div class="section-head reveal">
+        <h2 data-i18n="shots.title">تصاویر برنامه</h2>
+        <p data-i18n="shots.sub">نمای صفحههای اصلی — اسکرینشات واقعی بهزودی.</p>
+      </div>
+      <div class="shotrail" role="list" aria-label="تصاویر برنامه" data-i18n-aria="shots.aria">
+        <div class="shot" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <b data-i18n="shots.label1">صفحهٔ خانه</b>
+          <small data-i18n="shots.soon">بهزودی</small>
+        </div>
+        <div class="shot" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <b data-i18n="shots.label2">حفاظت و تأخیر</b>
+          <small data-i18n="shots.soon">بهزودی</small>
+        </div>
+        <div class="shot" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <b data-i18n="shots.label3">کلمات مسدود</b>
+          <small data-i18n="shots.soon">بهزودی</small>
+        </div>
+        <div class="shot" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <b data-i18n="shots.label4">سایتهای مسدود</b>
+          <small data-i18n="shots.soon">بهزودی</small>
+        </div>
+        <div class="shot" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <b data-i18n="shots.label5">گزارش و عیبیابی</b>
+          <small data-i18n="shots.soon">بهزودی</small>
+        </div>
+      </div>
+      <p class="railhint" data-i18n="shots.hint">برای دیدن بقیه، کنار بکش.</p>
+    </section>
+
+    <section class="aboutapp">
+      <div class="section-head reveal">
+        <h2 data-i18n="desc.title">دربارهٔ برنامه</h2>
+        <p data-i18n="desc.sub">چه میکند، برای چه کسی است و چطور کار میکند.</p>
+      </div>
+      <div class="panel appdesc reveal">
+        <p data-i18n="desc.p1">
+          توکل برای کسی ساخته شده که میخواهد مرزهای مشخصی روی گوشی خود بگذارد. فهرستی از کلمات
+          و دامنهها را وارد میکنی و برنامه هر جا آن کلمات نوشته شوند یا آن سایتها باز شوند،
+          جلوی ادامهٔ کار را میگیرد. قفل هم به برنامههای حساس و تنظیمات خود توکل محدود
+          میشود، نه به کل گوشی.
+        </p>
+        <p data-i18n="desc.p2">
+          حفاظت فقط به سرویس دسترسپذیری اندروید وابسته نیست: یک سرویس نگهبان و برنامهریز تعبیهشده
+          تلاش میکند سرویس پس از بستهشدن دوباره زنده شود. وضعیت زنده و آخرین ضربان در صفحهٔ
+          گزارش خطا دیده میشود تا اگر سرویس متوقف شد، بدانی دقیقاً چه اتفاقی افتاده است.
+        </p>
+        <p data-i18n="desc.p3">
+          قفل تأخیری برای زمانهایی است که میخواهی با تایپکردن یک متن مشخص، خاموشکردن حفاظت را
+          سختتر کنی. قفل شریک فقط برای ورود به برنامه است و در تنظیمات داخل برنامه درخواست نمیشود.
+          هیچ حساب، هیچ سرور و هیچ جمعآوری اطلاعاتی وجود ندارد.
+        </p>
+        <ul class="desclist">
+          <li data-i18n="app.f1">مسدود کردن کلمات در فیلدهای متنی و مسدود کردن دامنههای سایت در مرورگر</li>
+          <li data-i18n="app.f2">قفل محتوای بزرگسالان با فهرست گسترده دامنهها و قفل شریک</li>
+          <li data-i18n="app.f3">قفل تأخیری، وضعیت زنده سرویس و گزارش خطا</li>
+          <li data-i18n="app.f4">بدون حساب، بدون سرور و بدون جمعآوری اطلاعات</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="whatsnew-wrap" id="whats-new">
+      <div class="section-head reveal">
+        <h2 data-i18n="news.title">تازه در نسخهٔ ۱.۴.۲۳</h2>
+        <p data-i18n="news.sub">آخرین تغییرهایی که به همین نسخه رسیده است.</p>
+      </div>
+      <div class="panel reveal">
+        <span class="version-tag" data-i18n="news.tag">۱.۴.۲۳ · ۲۱ نوامبر ۲۰۲۶</span>
+        <ul class="newslist">
+          <li data-i18n="news.i1">فهرست دامنههای بزرگسالان به ۵۵۱ دامنهٔ یکتا گسترش یافت و موارد نادرست و کسبوکارهای ایرانی حذف شدند.</li>
+          <li data-i18n="news.i2">بخش «سایتهای مسدود» اضافه شد: آدرسها را با کما، فاصله یا خط جدید جدا کن، پیشنمایش ببین و با یک لمس ذخیره کن.</li>
+          <li data-i18n="news.i3">دامنههای ذخیرهشده بهصورت تگهای جداگانه نشان داده میشوند و تک تک قابل حذفاند؛ تعداد کل همیشه نمایان است.</li>
+          <li data-i18n="news.i4">پردازندهٔ واحدی برای پیشنمایش، ذخیره و حذف دامنهها استفاده میشود تا رفتار همهٔ قسمتها یکسان بماند.</li>
+          <li data-i18n="news.i5">نسخه و شمارهٔ ساخت به ۱.۴.۲۳ / ۳۳ بهروزرسانی شد تا نصب روی نسخهٔ قبلی بدون پاکشدن دادهها انجام شود.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head reveal">
+        <h2 data-i18n="feat.title">چطور کار میکند؟</h2>
+        <p data-i18n="feat.sub">یک سرویس ساده، قواعد مشخص و بدون سرور.</p>
+      </div>
+      <div class="featgrid">
+        <article class="featcard reveal">
+          <b data-i18n="feat.c1.title">کلمات و سایتها را مسدود میکند</b>
+          <p data-i18n="feat.c1.body">کلمات ممنوعه فقط در فیلدهای متنی بررسی میشوند و دامنهها با تطابق postfix در مرورگر مسدود میشوند؛ بنابراین یک کلمهٔ بیگناه در متن دیگر گیر نمیکند.</p>
+        </article>
+        <article class="featcard reveal">
+          <b data-i18n="feat.c2.title">قفل محتوای بزرگسالان</b>
+          <p data-i18n="feat.c2.body">۵۵۱ دامنهٔ شناختهشده بهصورت پیشفرض مسدوداند و هر دامنهٔ دلخواه دیگری هم میشود اضافه کرد. قفل فقط وقتی حفاظت خارج از برنامه است عمل میکند.</p>
+        </article>
+        <article class="featcard reveal">
+          <b data-i18n="feat.c3.title">قفل تأخیری و شریک</b>
+          <p data-i18n="feat.c3.body">برای خاموشکردن حفاظت یا تأخیر، باید متن مشخصی را تایپ کنی. رمز شریک فقط برای ورود به برنامه است، نه برای بازکردن تنظیمات داخل آن.</p>
+        </article>
+        <article class="featcard reveal">
+          <b data-i18n="feat.c4.title">وضعیت زنده سرویس</b>
+          <p data-i18n="feat.c4.body">چراغ وضعیت از سرویس واقعی خوانده میشود، نه از یک تنظیم قدیمی. اگر سیستم سرویس را متوقف کند، نشانگر قرمز میشود تا متوجه شوی.</p>
+        </article>
+        <article class="featcard reveal">
+          <b data-i18n="feat.c5.title">بدون اینترنت</b>
+          <p data-i18n="feat.c5.body">همهٔ قواعد و فهرستها روی گوشی میمانند. هیچ حسابی، سروری و تحلیلی در کار نیست.</p>
+        </article>
+        <article class="featcard reveal">
+          <b data-i18n="feat.c6.title">گزارش خطا</b>
+          <p data-i18n="feat.c6.body">رویدادهای مسدودسازی، ضربان نگهبان و خطاها در صفحهٔ مخصوص ذخیره میشوند و قابل کپی کردناند.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tech" id="tech">
+      <div class="section-head reveal">
+        <h2 data-i18n="tech.title">اطلاعات فنی</h2>
+        <p data-i18n="tech.sub">همان فایلی که دانلود میکنی، با همین مشخصات.</p>
+      </div>
+      <div class="panel reveal">
+        <table class="infotable">
+          <caption data-i18n="tech.caption">مشخصات فایل APK</caption>
+          <tbody>
+            <tr>
+              <th scope="row" data-i18n="tech.version">نسخه</th>
+              <td data-i18n="tech.versionval">۱.۴.۲۳</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.size">حجم فایل</th>
+              <td data-i18n="tech.sizeval">۳۷٬۰۹۳٬۱۰۵ بایت (۳۵ مگابایت)</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.updated">آخرین بهروزرسانی</th>
+              <td><time datetime="2026-11-21" data-i18n="tech.updatedval">۲۱ نوامبر ۲۰۲۶</time></td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.package">نام پکیج</th>
+              <td class="mono">com.focusblocker.app</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.android">اندروید موردنیاز</th>
+              <td data-i18n="tech.androidval">۷.۰ به بالا (minSdk 24)</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.category">دستهبندی</th>
+              <td data-i18n="tech.categoryval">ابزارها · امنیت و کنترل والدین</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.developer">سازنده</th>
+              <td data-i18n="tech.developerval">توکل (elyasyy23-lgtm)</td>
+            </tr>
+            <tr>
+              <th scope="row" data-i18n="tech.hash">هش SHA-256</th>
+              <td class="mono">
+                <span id="apk-hash">4db1a986d2810a97f11ad20b029394338401cd57965abdc85f34d5e306982b35</span>
+                <button type="button" class="copyhash" id="copy-hash"
+                        data-copy="4db1a986d2810a97f11ad20b029394338401cd57965abdc85f34d5e306982b35"
+                        data-label-fa="کپی" data-label-en="Copy"
+                        data-i18n="tech.copy">کپی</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="tech-note" data-i18n="tech.note">
+          برای اطمینان، هش SHA-256 فایل دانلودشده را با عدد بالا مقایسه کن. اگر یکی بود، فایل
+          دقیقاً همان نسخهٔ منتشرشده است و در مسیر دستکاری نشده. روی اندروید با یک برنامهٔ
+          checksum یا روی کامپیوتر با دستور <code>sha256sum</code> حساب میشود.
+        </p>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="section-head reveal">
+        <h2 data-i18n="install.title">نصب در سه قدم</h2>
+        <p data-i18n="install.sub">بدون حساب، بدون ثبتنام.</p>
+      </div>
+      <ol class="steps-list">
+        <li class="reveal"><span class="num">۱</span><span><b data-i18n="install.s1.title">فایل را دانلود کن</b><span data-i18n="install.s1.body">دکمهٔ «دانلود APK» را بزن؛ فایل در پوشهٔ دانلود گوشی ذخیره میشود.</span></span></li>
+        <li class="reveal"><span class="num">۲</span><span><b data-i18n="install.s2.title">اجازهٔ نصب بده</b><span data-i18n="install.s2.body">اگر اندروید هشدار داد، برای مرورگر «نصب از منابع ناشناخته» را روشن کن و گزینهٔ «نصب با وجود هشدار» را بزن.</span></span></li>
+        <li class="reveal"><span class="num">۳</span><span><b data-i18n="install.s3.title">دسترسیها را بده</b><span data-i18n="install.s3.body">برنامه را باز کن، حفاظت را روشن کن و دسترسی لازم را برای سرویس و فهرستها تأیید کن.</span></span></li>
+      </ol>
+    </section>
+
+    <section class="similar">
+      <div class="section-head reveal">
+        <h2 data-i18n="similar.title">دیگر برنامههای ما</h2>
+        <p data-i18n="similar.sub">از همان سازنده، روی همان سایت.</p>
+      </div>
+      <div class="simgrid">
+        <a class="simcard reveal" href="rakaatcounter.html">
+          <img src="assets/khushu-icon.png" alt="آیکون خشوع" width="52" height="52" loading="lazy" decoding="async" data-i18n-alt="similar.khushu.alt">
+          <span class="simcard-body">
+            <b data-i18n="similar.khushu.name">خشوع</b>
+            <small data-i18n="similar.khushu.desc">شمارندهٔ خودکار رکعت و سجده با حسگر نور.</small>
+          </span>
+          <span class="simcard-go" data-i18n="similar.khushu.cta">مشاهده</span>
+        </a>
+        <a class="simcard reveal" href="index.html#apps">
+          <span class="simcard-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/>
+              <rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>
+            </svg>
+          </span>
+          <span class="simcard-body">
+            <b data-i18n="similar.all.name">همهٔ برنامهها</b>
+            <small data-i18n="similar.all.desc">فهرست کامل برنامههای سایت در یک نگاه.</small>
+          </span>
+          <span class="simcard-go" data-i18n="similar.all.cta">باز کردن</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="ctaband reveal">
+      <div>
+        <h2 data-i18n="band.title">آمادهای کنترل گوشی خودت؟</h2>
+        <p data-i18n="band.sub">رایگان است، تبلیغ ندارد و اطلاعاتی جمعآوری نمیکند.</p>
+      </div>
+      <a class="cta cta-app" href="Tavakkol-release.apk" data-repo="elyasyy23-lgtm/FocusBlocker" download="Tavakkol-release.apk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3v12"/><path d="m7 12 5 5 5-5"/><path d="M5 21h14"/>
+        </svg>
+        <span data-i18n="band.cta">دانلود APK</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <span data-i18n="footer.text">توکل — محافظ رایگان گوشی، بدون تبلیغ و بدون جمعآوری اطلاعات.</span>
+      <span data-i18n-html="footer.contact">
+        ارتباط با سازنده در روبیکا:
+        <a href="https://rubika.ir/yasmajyd" target="_blank" rel="noopener">@yasmajyd</a>
+      </span>
+    </div>
+    <p class="wordmark" data-i18n="footer.wordmark">توکل</p>
+    <p class="foot foot-meta">
+      <span data-i18n="footer.meta">توکل · نسخهٔ ۱.۴.۲۳ · نوامبر ۲۰۲۶</span>
+      <a class="stats-link" href="index.html" data-i18n="footer.home">صفحهٔ اصلی</a>
+    </p>
+  </footer>
+
+  <div class="stickydl" id="sticky-dl" hidden>
+    <img src="assets/web-icon.png" alt="" width="38" height="38" aria-hidden="true" decoding="async">
+    <span class="stickydl-text">
+      <b data-i18n="sticky.name">توکل</b>
+      <small data-i18n="sticky.meta">نسخهٔ ۱.۴.۲۳ · ۳۵ مگابایت</small>
+    </span>
+    <a class="cta cta-app" href="Tavakkol-release.apk" data-repo="elyasyy23-lgtm/FocusBlocker" download="Tavakkol-release.apk">
+      <span data-i18n="sticky.cta">دانلود APK</span>
+    </a>
+  </div>
+
+</div>
+
+<script>
+  window.I18N_EN = {
+    'meta.title': `Tavakkol | Free phone guardian and content blocker`,
+    'meta.description': `Tavakkol is a free Android guardian that blocks keywords, websites and adult content. No ads, no data collection.`,
+    'meta.siteName': `Tavakkol`,
+
+    'brand.alt': `Tavakkol app logo`,
+    'header.name': `Tavakkol`,
+    'header.tagline': `Your phone's own guardian`,
+    'header.version': `Version 1.4.23 · Android`,
+
+    'back.home': `Back to home`,
+    'detail.free': `Free · No ads`,
+
+    'app.badge': `Android · Free · Offline`,
+    'app.name': `Tavakkol — phone guardian`,
+    'app.f1': `Blocks keywords in text fields and website domains in the browser`,
+    'app.f2': `Adult-content lock with a large built-in domain list and a partner PIN`,
+    'app.f3': `Delay mode, live service status and error log`,
+    'app.f4': `No account, no server and no data collection`,
+    'app.cta': `Download APK — 35 MB`,
+    'app.version': `Version 1.4.23`,
+    'app.size': `Size 35 MB`,
+    'app.note': `The file comes straight from this site, with nothing in between. If Google warns you during install, tap “Install anyway” — every app installed from outside the store shows that message.`,
+    'app.alt': `Tavakkol app icon`,
+    'app.pill1': `No data collection`,
+    'app.pill2': `No ads`,
+    'app.pill3': `Android 7+`,
+
+    'app.metaversion': `Version 1.4.23`,
+    'app.by': `by Tavakkol`,
+    'app.updated': `21 November 2026`,
+    'app.verify': `Verified file · SHA-256 in the tech table`,
+
+    'crumbs.aria': `Breadcrumb`,
+    'crumbs.home': `Home`,
+    'crumbs.apps': `Apps`,
+    'crumbs.current': `Tavakkol`,
+
+    'news.title': `What's new in 1.4.23`,
+    'news.sub': `The changes that landed in this build.`,
+    'news.tag': `1.4.23 · 21 November 2026`,
+    'news.i1': `The adult-domain list grew to 551 unique domains, with false positives and Iranian business domains removed.`,
+    'news.i2': `A Blocked Websites section was added: separate addresses with commas, spaces or new lines, preview them, and save them in one tap.`,
+    'news.i3': `Saved domains appear as removable chips and the total count stays visible.`,
+    'news.i4': `One parser now powers preview, saving and removal, so every part behaves the same way.`,
+    'news.i5': `Version identity moved to 1.4.23 / versionCode 33, so this build installs over the previous one without wiping data.`,
+
+    'tech.category': `Category`,
+    'tech.categoryval': `Utilities · Security and parental control`,
+    'tech.developer': `Developer`,
+    'tech.developerval': `Tavakkol (elyasyy23-lgtm)`,
+
+    'similar.title': `More apps from us`,
+    'similar.sub': `Same developer, same site.`,
+    'similar.khushu.alt': `Khushu app icon`,
+    'similar.khushu.name': `Khushu`,
+    'similar.khushu.desc': `Automatic rak'ah and prostration counter using the light sensor.`,
+    'similar.khushu.cta': `View`,
+    'similar.all.name': `All apps`,
+    'similar.all.desc': `Every app on this site in one place.`,
+    'similar.all.cta': `Open`,
+
+    'sticky.name': `Tavakkol`,
+    'sticky.meta': `Version 1.4.23 · 35 MB`,
+    'sticky.cta': `Download APK`,
+
+    'shots.title': `Screenshots`,
+    'shots.sub': `The main screens — real screenshots are coming soon.`,
+    'shots.aria': `App screenshots`,
+    'shots.label1': `Home screen`,
+    'shots.label2': `Protection and delay mode`,
+    'shots.label3': `Blocked keywords`,
+    'shots.label4': `Blocked websites`,
+    'shots.label5': `Diagnostics`,
+    'shots.soon': `Coming soon`,
+    'shots.hint': `Swipe sideways to see the rest.`,
+
+    'desc.title': `About the app`,
+    'desc.sub': `What it does, who it is for, and how it works.`,
+    'desc.p1': `Tavakkol is for anyone who wants clear boundaries on their own phone. You enter a list of words and domains; when those words are typed or those sites are opened, the app stops the action. The lock applies to sensitive apps and to Tavakkol's own settings, not to the whole phone.`,
+    'desc.p2': `Protection does not rely on one accessibility service alone: a watchdog service and scheduler try to bring the guard back if it is stopped. The live status and last heartbeat are shown in the diagnostics screen, so a power-saver kill is visible instead of silent.`,
+    'desc.p3': `Delay mode makes turning protection off harder by requiring a typed confirmation text. The partner PIN guards entering the app only and is never asked for inside Settings. There is no account, no server and no data collection.`,
+
+    'tech.title': `Technical details`,
+    'tech.sub': `The file you download, exactly as published.`,
+    'tech.caption': `APK file details`,
+    'tech.version': `Version`,
+    'tech.size': `File size`,
+    'tech.updated': `Last updated`,
+    'tech.package': `Package name`,
+    'tech.android': `Requires Android`,
+    'tech.hash': `SHA-256 hash`,
+    'tech.copy': `Copy`,
+    'tech.versionval': `1.4.23`,
+    'tech.sizeval': `37,093,105 bytes (35 MB)`,
+    'tech.updatedval': `21 November 2026`,
+    'tech.androidval': `Android 7.0 and up (minSdk 24)`,
+    'tech.note': `To be sure, compare the SHA-256 hash of the file you downloaded with the number above. If they match, the file is exactly the published build and was not modified on the way. On Android use any checksum app, on a computer run <code>sha256sum</code>.`,
+
+    'feat.title': `How does it work?`,
+    'feat.sub': `One service, clear rules and no server.`,
+    'feat.c1.title': `Blocks words and sites`,
+    'feat.c1.body': `Blocked words are checked in text fields only, while domains are matched by suffix in the browser, so an innocent word in ordinary text does not trigger a block.`,
+    'feat.c2.title': `Adult-content lock`,
+    'feat.c2.body': `551 known adult domains are blocked by default, and any other domain can be added. The lock only applies while protection is outside the app.`,
+    'feat.c3.title': `Delay mode and partner PIN`,
+    'feat.c3.body': `Turning protection or delay mode off requires typing a fixed confirmation text. The partner PIN guards app entry only, not Settings inside the app.`,
+    'feat.c4.title': `Live service status`,
+    'feat.c4.body': `The status light reads the real service, not a stale setting. If the system stops the service, the indicator turns red.`,
+    'feat.c5.title': `No internet needed`,
+    'feat.c5.body': `All rules and lists stay on the phone. There is no account, server or analytics.`,
+    'feat.c6.title': `Error log`,
+    'feat.c6.body': `Block events, watchdog heartbeats and errors are stored in a dedicated screen and can be copied.`,
+
+    'install.title': `Install in three steps`,
+    'install.sub': `No account, no sign-up.`,
+    'install.s1.title': `Download the file`,
+    'install.s1.body': `Tap “Download APK”; the file is saved in your phone's Downloads folder.`,
+    'install.s2.title': `Allow the install`,
+    'install.s2.body': `If Android warns you, turn on “Install from unknown sources” for your browser and tap Install anyway.`,
+    'install.s3.title': `Grant the permissions`,
+    'install.s3.body': `Open the app, turn on protection and confirm the permissions needed for the service and lists.`,
+
+    'band.title': `Ready to control your own phone?`,
+    'band.sub': `It is free, has no ads, and collects no data.`,
+    'band.cta': `Download APK`,
+
+    'footer.text': `Tavakkol — a free phone guardian, no ads and no data collection.`,
+    'footer.contact': `Contact the developer on Rubika: <a href="https://rubika.ir/yasmajyd" target="_blank" rel="noopener">@yasmajyd</a>`,
+    'footer.wordmark': `Tavakkol`,
+    'footer.meta': `Tavakkol · version 1.4.23 · November 2026`,
+    'footer.home': `Home page`
+  };
+</script>
+<script>
+  /* Hash copy button on the technical table. */
+  (function () {
+    var button = document.getElementById('copy-hash');
+    if (!button) return;
+    var hash = button.getAttribute('data-copy') || '';
+    var timer = null;
+
+    function idleLabel() {
+      var english = window.TAVAKKOL_LANG === 'en';
+      return button.getAttribute(english ? 'data-label-en' : 'data-label-fa') ||
+        (english ? 'Copy' : 'کپی');
+    }
+
+    function flash() {
+      button.classList.add('is-copied');
+      button.textContent = window.TAVAKKOL_LANG === 'en' ? 'Copied!' : 'کپی شد';
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        button.classList.remove('is-copied');
+        button.textContent = idleLabel();
+      }, 1600);
+    }
+
+    function legacyCopy() {
+      try {
+        var area = document.createElement('textarea');
+        area.value = hash;
+        area.setAttribute('readonly', '');
+        area.style.position = 'fixed';
+        area.style.opacity = '0';
+        document.body.appendChild(area);
+        area.select();
+        document.execCommand('copy');
+        document.body.removeChild(area);
+        flash();
+      } catch (error) {}
+    }
+
+    button.addEventListener('click', function () {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(hash).then(flash, legacyCopy);
+      } else {
+        legacyCopy();
+      }
+    });
+  })();
+</script>
+<script>
+  /* Sticky download bar: appears only after the hero download button has
+     scrolled out of view, so it never covers the copy that matters most. */
+  (function () {
+    var bar = document.getElementById('sticky-dl');
+    var anchor = document.getElementById('tavakkol-cta');
+    if (!bar || !anchor || typeof anchor.getBoundingClientRect !== 'function') return;
+
+    var shown = false;
+    var timer = null;
+
+    function measure() {
+      timer = null;
+      var box = anchor.getBoundingClientRect();
+      var want = box.bottom < 0;
+      if (want === shown) return;
+      shown = want;
+      bar.hidden = !want;
+      document.body.classList.toggle('has-stickybar', want);
+    }
+
+    function schedule() {
+      if (timer) return;
+      timer = setTimeout(measure, 120);
+    }
+
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule, { passive: true });
+    measure();
+  })();
+</script>
+<script src="assets/i18n.js" defer></script>
+<script src="assets/apk-links.js" defer></script>
+</body>
+</html>
